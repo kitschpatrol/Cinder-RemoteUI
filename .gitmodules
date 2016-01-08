@@ -1,0 +1,3 @@
+[submodule "src/ofxRemoteUI"]
+	path = src/ofxRemoteUI
+	url = https://github.com/kitschpatrol/ofxRemoteUI.git

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+	<block
+	name="RemoteUI"
+	id="com.kitschpatrol.remoteui"
+	git="https://github.com/kitschpatrol/Cinder-RemoteUI.git"
+	url="https://github.com/kitschpatrol/Cinder-RemoteUI"
+	author="Oriol Ferrer Mesia, Eric Mika"
+	version="1.0.0"
+	library="https://github.com/armadillu/ofxRemoteUI"
+	license="MIT"
+	summary="Tweak variables inside your Cinder app over the network in real time."
+	>
+		<requires>org.libcinder.osc</requires>
+		<supports os="macosx" />
+		<supports os="msw" />	
+		
+		<header>src/ofxRemoteUI/src/ofxRemoteUI.h</header>
+		<source>src/ofxRemoteUI/src/ofxRemoteUI.cpp</source>
+				
+		<header>src/ofxRemoteUI/src/ofxRemoteUIServer.h</header>
+		<source>src/ofxRemoteUI/src/ofxRemoteUIServer.cpp</source>
+
+		<header>src/ofxRemoteUI/src/uriencode.h</header>
+		<source>src/ofxRemoteUI/src/uriencode.cpp</source>
+		
+		<header>src/ofxRemoteUI/src/ofxRemoteUIServerMacros.h</header>
+		<header>src/ofxRemoteUI/src/RemoteParam.h</header>
+		<header>src/ofxRemoteUI/src/ofxRemoteUIServerMacros.h</header>
+		
+		<platform os="msw">
+			<header>src/ofxRemoteUI/src/dirent_vs.h</header>
+		</platform>
+		
+		<headerPattern>src/ofxRemoteUI/noOFLibs/ofxXmlSettings/src/*.h</headerPattern>
+		<sourcePattern>src/ofxRemoteUI/noOFLibs/ofxXmlSettings/src/*.cpp</sourcePattern>
+
+		<headerPattern>src/ofxRemoteUI/noOFLibs/ofxXmlSettings/libs/*.h</headerPattern>
+		<sourcePattern>src/ofxRemoteUI/noOFLibs/ofxXmlSettings/libs/*.cpp</sourcePattern>
+		
+		<header>src/ofxRemoteUI/noOFLibs/ofStolenUtils.h</header>
+		<source>src/ofxRemoteUI/noOFLibs/ofStolenUtils.cpp</source>
+		
+	</block>
+</cinder>

@@ -1,0 +1,67 @@
+#OS X Files
+*.DS_STORE
+[Tt]humbs.db
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+
+# Compiled Source #
+*.com
+*.class
+*.obj
+*.app
+
+# Xcode Noise
+*~.nib
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.xcworkspace
+*.xcuserdata
+xcuserdata/
+DerivedData
+[Bb]uild/
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlog
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+#[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+#Misc
+*.zip
+log.text
