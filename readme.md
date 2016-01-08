@@ -23,6 +23,23 @@ From there, take a look at the RemoteUIBasic sample or create a new project thro
 
 Once you have a RemoteUI-enabled Cinder app up and running, open the ofxRemoteUIClientOSX application in the root of the block folder to connect to and control your app.
 
+See the [ofxRemoteUI readme](https://github.com/kitschpatrol/ofxRemoteUI/blob/master/README.md) for more info on what's possible.
+
+## Cinder Integration
+
+Currently ofxRemoteUI is only very minimally integrated with Cinder. Notable changes are as follows:
+
+- Use Cinder's built-in OSC block instead of ofxOSC.
+- Use native Cinder types where possible, e.g. color parameters.
+- Use signals instead of OF events to hook into app lifecycle and provide deliver callbacks.
+
+Still, there are few lingering dependencies from OF included in this block:
+
+- TinyXML + ofxXmlSettings.
+- A few convenience functions. (See ofStolenUtils.h)
+
+Some of the more advanced features from the OF version (in-app UI, in-app notifications) are not yet implemented.
+
 ## Origin
 
 ofxRemoteUI was created by [Oriol Ferrer Mesià](http://uri.cat). Oriol also created an unreleased Cinderblock, parts of which have been integrated into this one.
