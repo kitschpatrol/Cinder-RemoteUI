@@ -2,7 +2,7 @@
 
 **Cinder-RemoteUI helps bridge the superlative [ofxRemoteUI](https://github.com/armadillu/ofxRemoteUI) ecosystem into [Cinder](http://libcinder.org). RemoteUI makes it easy to define and tweak variables in your app over the network in real time.**
 
-This Cinderblock runs an ofxRemoteUI server inside your app that other UI-only clients can connect to and control. At the most basic level, it's similar to Params or the [many](https://github.com/rezaali/Cinder-UI) [other](https://github.com/simongeilfus/Cinder-ImGui) [UI](https://github.com/cwhitney/PretzelGui) [libraries](https://github.com/nselikoff/Cinder-MinimalUI) available for Cinder. Philosophically, however, RemoteUI takes quite a different approach.
+This Cinderblock runs an ofxRemoteUI server inside your app that other UI-only clients can connect to and control. At the most basic level, it's similar to Params or the [many](https://github.com/rezaali/Cinder-UI) [other](https://github.com/simongeilfus/Cinder-ImGui) [UI](https://github.com/cwhitney/PretzelGui) [libraries](https://github.com/nselikoff/Cinder-MinimalUI) available for Cinder. Philosophically, however, RemoteUI takes a different approach.
 
 First, you generally don't clutter the app window with windows and controls. Instead, parameters are managed from an external app.
 
@@ -17,7 +17,7 @@ Navigate to your `Cinder/blocks` folder, then:
 
 	git clone https://github.com/kitschpatrol/Cinder-OpenCFU --recursive 
 
-Note that this block includes a specific fork of the [ofxRemoteUI](https://github.com/kitschpatrol/ofxRemoteUI) project as a git submodule. This fork includes a number of fixes. Be sure to clone the block repo recursively.
+Note that this block includes a specific fork of the [ofxRemoteUI](https://github.com/kitschpatrol/ofxRemoteUI) project as a git submodule. This fork includes a number of Cinder-related compatibility fixes. Be sure to clone the block repo recursively.
 
 From there, take a look at the RemoteUIBasic sample or create a new project through Tinderbox.
 
@@ -52,21 +52,21 @@ Tested against the [Cinder master branch](https://github.com/cinder/Cinder/commi
 
 Tinderbox-generated project files are known to work on:
 
-- Mac OS X 10.11 x64 with Xcode 7.2
+- Mac OS X 10.11.2 with Xcode 7.2
 
 ##TODO
 
 Sooner:
 
 - Test on Windows.
-- Use Cinder's native XMLTree classes for preset serialization and persistence.
+- Use Cinder's native XMLTree classes instead of TinyXML for preset serialization and persistence.
 - Nicer, more Cinder-esque API. (Namespaces? Alternatives to the macros?) 
 - Seamlessly support color types beyond ci::ColorA8u.
 - Merge ofxRemoteUI Cinder compatibility changes upstream.
 
 Later:
 
-- Port over `ofxRemoteUISimpleNotifications.h` for in-app on-screen notifications. - 
+- Port over `ofxRemoteUISimpleNotifications.h` for in-app on-screen notifications.
 - Port over in-app UI.
-- Create something like ofParameter to Cinder?
+- Create something like ofParameter for Cinder?
 - Threaded option.
