@@ -29,6 +29,10 @@
 		<header>src/ofxRemoteUI/src/ofxRemoteUIServerMacros.h</header>
 		
 		<platform os="msw">
+			<includePath>src/ofxRemoteUI/src/</includePath>	
+			<includePath>src/ofxRemoteUI/noOFLibs/</includePath>	
+			<includePath>src/ofxRemoteUI/noOFLibs/ofxXmlSettings/src</includePath>
+			<includePath>src/ofxRemoteUI/noOFLibs/ofxXmlSettings/libs</includePath>
 			<header>src/ofxRemoteUI/src/dirent_vs.h</header>
 		</platform>
 		
