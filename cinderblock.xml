@@ -23,6 +23,9 @@
 
 		<header>src/ofxRemoteUI/src/uriencode.h</header>
 		<source>src/ofxRemoteUI/src/uriencode.cpp</source>
+
+		<header>src/ofxRemoteUI/src/ofxCinderOSC.h</header>
+		<source>src/ofxRemoteUI/src/ofxCinderOSC.cpp</source>
 		
 		<header>src/ofxRemoteUI/src/ofxRemoteUIServerMacros.h</header>
 		<header>src/ofxRemoteUI/src/RemoteParam.h</header>
