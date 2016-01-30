@@ -10,7 +10,7 @@ using namespace ci;
 using namespace ci::app;
 using namespace std;
 
-enum ShapeOptions {
+enum class ShapeOptions : int {
 	SQUARE,
 	CIRCLE,
 	TRIANGLE,
@@ -77,7 +77,8 @@ void RemoteUIBasicApp::setup() {
 	RUI_SHARE_COLOR_PARAM(mBackgroundColor);
 
 	// privide the enum param, loweset enum, highest enum, and the Enum string list
-	RUI_SHARE_ENUM_PARAM(mCurrentShape, SQUARE, TRIANGLE, shapeNames);
+	// we suffer the casts because we're using a strongly typed enum
+	RUI_SHARE_ENUM_PARAM(mCurrentShape, static_cast<int>(ShapeOptions::SQUARE), static_cast<int>(ShapeOptions::TRIANGLE), shapeNames);
 
 	RUI_SHARE_PARAM(mTestString);
 
@@ -107,13 +108,13 @@ void RemoteUIBasicApp::draw() {
 	gl::scale(mShapeScale, mShapeScale);
 
 	switch (mCurrentShape) {
-		case SQUARE:
+		case ShapeOptions::SQUARE:
 			gl::drawSolidRect(Rectf(-0.5, -0.5, 0.5, 0.5));
 			break;
-		case CIRCLE:
+		case ShapeOptions::CIRCLE:
 			gl::drawSolidCircle(vec2(0), 0.5, 18);
 			break;
-		case TRIANGLE:
+		case ShapeOptions::TRIANGLE:
 			gl::drawSolidTriangle(vec2(0, -0.5), vec2(.433, .25), vec2(-.433, .25));
 			break;
 	}
@@ -126,7 +127,7 @@ void RemoteUIBasicApp::draw() {
                            "mRotationSpeed:\t\t" + toString(mRotationSpeed) + "\n"
 													 "mIsRotationEnabled:\t" + toString(mIsRotationEnabled) + "\n"
 													 "mBackgroundColor:\t" + toString(mBackgroundColor) + "\n"
-													 "mCurrentShape:\t\t" + shapeNames[mCurrentShape] + "\n"
+													 "mCurrentShape:\t\t" + shapeNames[static_cast<int>(mCurrentShape)] + "\n"
 													 "mTestString:\t\t\t" + mTestString + "\n",
 													 vec2(5, 15));
 	// clang-format on
