@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -21,37 +22,28 @@
     <Filter Include="Blocks\OSC\src">
       <UniqueIdentifier>{E74891AC-EA7B-4095-BD44-4E122CC72A2B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\OSC\src\ip">
-      <UniqueIdentifier>{26113185-2DE2-47CE-8874-3DF7CA005B7B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Blocks\OSC\src\osc">
-      <UniqueIdentifier>{9CD302E2-9A5B-4E2C-865F-042688B297D8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Blocks\OSC\src\ip\win32">
-      <UniqueIdentifier>{5546D61C-2E58-47E9-817F-9EEF56A327D5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Blocks\RemoteUI">
+    <Filter Include="blocks\Cinder-RemoteUI">
       <UniqueIdentifier>{8672060F-55C4-4E71-A4E2-89CDCD477F59}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\RemoteUI\src">
+    <Filter Include="blocks\Cinder-RemoteUI\src">
       <UniqueIdentifier>{D9F2EBC5-0A19-43D8-A76F-70E1B44C4AA9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI">
+    <Filter Include="blocks\Cinder-RemoteUI\src\ofxRemoteUI">
       <UniqueIdentifier>{F94E5122-FC7B-4BA8-8934-EA4B35C03F02}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\src">
+    <Filter Include="blocks\Cinder-RemoteUI\src\ofxRemoteUI\src">
       <UniqueIdentifier>{1D744B22-D3D6-4181-84DF-8CB81257E750}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs">
+    <Filter Include="blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs">
       <UniqueIdentifier>{7224A793-C6E6-4D19-A380-D22A2DE9DE50}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings">
+    <Filter Include="blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings">
       <UniqueIdentifier>{BB9CFE45-1FD1-4D2D-ABC4-C2B83ABB67FA}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src">
+    <Filter Include="blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src">
       <UniqueIdentifier>{1B26E4F2-3354-4E26-A24A-180549789E21}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs">
+    <Filter Include="blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs">
       <UniqueIdentifier>{D5294F79-4778-4BF5-8B9E-B04324A4C4D5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -65,150 +57,78 @@
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscBundle.cpp">
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\Osc.cpp">
       <Filter>Blocks\OSC\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscListener.cpp">
-      <Filter>Blocks\OSC\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscMessage.cpp">
-      <Filter>Blocks\OSC\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscSender.cpp">
-      <Filter>Blocks\OSC\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\IpEndpointName.cpp">
-      <Filter>Blocks\OSC\src\ip</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscOutboundPacketStream.cpp">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscPrintReceivedElements.cpp">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscReceivedElements.cpp">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscTypes.cpp">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscArg.h">
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\Osc.h">
       <Filter>Blocks\OSC\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscBundle.h">
-      <Filter>Blocks\OSC\src</Filter>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUI.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscListener.h">
-      <Filter>Blocks\OSC\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscMessage.h">
-      <Filter>Blocks\OSC\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscSender.h">
-      <Filter>Blocks\OSC\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\IpEndpointName.h">
-      <Filter>Blocks\OSC\src\ip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\NetworkingUtils.h">
-      <Filter>Blocks\OSC\src\ip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\PacketListener.h">
-      <Filter>Blocks\OSC\src\ip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\TimerListener.h">
-      <Filter>Blocks\OSC\src\ip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\UdpSocket.h">
-      <Filter>Blocks\OSC\src\ip</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\MessageMappingOscPacketListener.h">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscException.h">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscHostEndianness.h">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscOutboundPacketStream.h">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscPacketListener.h">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscPrintReceivedElements.h">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscReceivedElements.h">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscTypes.h">
-      <Filter>Blocks\OSC\src\osc</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\win32\NetworkingUtils.cpp">
-      <Filter>Blocks\OSC\src\ip\win32</Filter>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUI.cpp">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\win32\UdpSocket.cpp">
-      <Filter>Blocks\OSC\src\ip\win32</Filter>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServer.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUI.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\uriencode.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUI.cpp">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\uriencode.cpp">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServer.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\RemoteParam.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\dirent_vs.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\uriencode.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\uriencode.cpp">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\RemoteParam.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\dirent_vs.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.cpp">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src</Filter>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofStolenUtils.h">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.cpp">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlerror.cpp">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlparser.cpp">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofStolenUtils.h">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofStolenUtils.cpp">
-      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs</Filter>
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofStolenUtils.cpp">
+      <Filter>blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

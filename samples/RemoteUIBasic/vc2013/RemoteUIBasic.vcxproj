@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -78,7 +79,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;"..\..\..\..\..\Cinder\include";..\..\..\..\..\Cinder\blocks\OSC\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxOsc\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -89,11 +90,11 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>"..\..\..\..\..\Cinder\include";..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"..\..\..\..\..\include";..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>"..\..\..\..\..\Cinder\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>"..\..\..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -105,7 +106,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;"..\..\..\..\..\Cinder\include";..\..\..\..\..\Cinder\blocks\OSC\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;"..\..\..\..\..\include";..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -115,11 +116,11 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>"..\..\..\..\..\Cinder\include";..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"..\..\..\..\..\include";..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>"..\..\..\..\..\Cinder\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>"..\..\..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -129,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\include;"..\..\..\..\..\Cinder\include";..\..\..\..\..\Cinder\blocks\OSC\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxOsc\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />
@@ -141,11 +142,11 @@
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>"..\..\..\..\..\Cinder\include";..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"..\..\..\..\..\include";..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>cinder-$(PlatformToolset).lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>"..\..\..\..\..\Cinder\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>"..\..\..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
       <SubSystem>Windows</SubSystem>
@@ -158,7 +159,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\include;"..\..\..\..\..\Cinder\include";..\..\..\..\..\Cinder\blocks\OSC\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;"..\..\..\..\..\include";..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />
@@ -170,11 +171,11 @@
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>"..\..\..\..\..\Cinder\include";..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"..\..\..\..\..\include";..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>cinder-$(PlatformToolset).lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>"..\..\..\..\..\Cinder\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>"..\..\..\..\..\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
       <SubSystem>Windows</SubSystem>
@@ -191,56 +192,29 @@
   <ItemGroup />
   <ItemGroup>
     <ClCompile Include="..\src\RemoteUIBasicApp.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscBundle.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscListener.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscMessage.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscSender.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\IpEndpointName.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscOutboundPacketStream.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscPrintReceivedElements.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscReceivedElements.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscTypes.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\win32\NetworkingUtils.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\win32\UdpSocket.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUI.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServer.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\uriencode.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlerror.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlparser.cpp" />
-    <ClCompile Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofStolenUtils.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\OSC\src\Osc.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUI.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServer.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\uriencode.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofStolenUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscArg.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscBundle.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscListener.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscMessage.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\OscSender.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\IpEndpointName.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\NetworkingUtils.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\PacketListener.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\TimerListener.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\ip\UdpSocket.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\MessageMappingOscPacketListener.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscException.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscHostEndianness.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscOutboundPacketStream.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscPacketListener.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscPrintReceivedElements.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscReceivedElements.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\OSC\src\osc\OscTypes.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUI.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServer.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\uriencode.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\RemoteParam.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\src\dirent_vs.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.h" />
-    <ClInclude Include="..\..\..\..\..\Cinder\blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofStolenUtils.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\OSC\src\Osc.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUI.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServer.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\uriencode.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\RemoteParam.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src\dirent_vs.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.h" />
+    <ClInclude Include="..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofStolenUtils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
