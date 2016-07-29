@@ -15,7 +15,7 @@ Finally, Since RemoteUI speaks a consistent protocol over OSC, you're not limite
 
 Navigate to your `Cinder/blocks` folder, then:
 
-	git clone https://github.com/kitschpatrol/Cinder-OpenCFU --recursive 
+	git clone https://github.com/kitschpatrol/Cinder-RemoteUI --recursive 
 
 Note that this block includes a specific fork of the [ofxRemoteUI](https://github.com/kitschpatrol/ofxRemoteUI) project as a git submodule. This fork includes a number of Cinder-related compatibility fixes. Be sure to clone the block repo recursively.
 
