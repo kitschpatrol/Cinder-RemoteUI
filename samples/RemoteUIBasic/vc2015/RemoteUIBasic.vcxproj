@@ -79,8 +79,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;"..\..\..\..\..\include";..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\OSC\src;..\..\..\src\ofxRemoteUI\noOFLibs;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\src\ofxRemoteUI\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;CINDER_AVAILABLE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -106,7 +106,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\OSC\src;..\..\..\src\ofxRemoteUI\src;..\..\..\src\ofxRemoteUI\noOFLibs;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\OSC\src;..\..\..\src\ofxRemoteUI\noOFLibs;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\src\ofxRemoteUI\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;CINDER_AVAILABLE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -130,8 +130,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\include;"..\..\..\..\..\include";..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\OSC\src;..\..\..\src\ofxRemoteUI\noOFLibs;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\src\ofxRemoteUI\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;CINDER_AVAILABLE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
@@ -159,7 +159,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\OSC\src;..\..\..\src\ofxRemoteUI\src;..\..\..\src\ofxRemoteUI\noOFLibs;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\OSC\src;..\..\..\src\ofxRemoteUI\noOFLibs;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\src\ofxRemoteUI\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;CINDER_AVAILABLE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />

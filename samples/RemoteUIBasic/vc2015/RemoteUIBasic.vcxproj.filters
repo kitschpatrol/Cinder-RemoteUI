@@ -134,6 +134,12 @@
     <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxCinderOSC.h">
       <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resources.rc">
