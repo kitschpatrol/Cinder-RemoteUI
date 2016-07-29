@@ -131,6 +131,16 @@ void RemoteUIBasicApp::draw() {
 													 "mTestString:\t\t\t" + mTestString + "\n",
 													 vec2(5, 15));
 	// clang-format on
+
+	// Draw Notifications, WIP
+	/*
+	{
+		gl::ScopedMatrices scopedMatrices;
+		gl::translate(15.0, getWindowHeight() - 20.0);
+		gl::scale(0.25, 0.25);
+		ofxRemoteUIServer::instance()->drawNotifications();
+	}
+	*/
 }
 
 void RemoteUIBasicApp::serverCallback(RemoteUIServerCallBackArg arg) {

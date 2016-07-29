@@ -42,37 +42,37 @@
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		00B995581B128DF400A5C623 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		00B995591B128DF400A5C623 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
-		029AF541284F4D6BAA647ED8 /* RemoteParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RemoteParam.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/RemoteParam.h; sourceTree = "<group>"; };
-		02A09DBD749C4918AF2F906B /* ofxRemoteUIServerMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxRemoteUIServerMacros.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/ofxRemoteUIServerMacros.h; sourceTree = "<group>"; };
-		0C4CA98B3770405C83E590E8 /* ofxRemoteUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxRemoteUI.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/ofxRemoteUI.h; sourceTree = "<group>"; };
+		029AF541284F4D6BAA647ED8 /* RemoteParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteParam.h; sourceTree = "<group>"; };
+		02A09DBD749C4918AF2F906B /* ofxRemoteUIServerMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxRemoteUIServerMacros.h; sourceTree = "<group>"; };
+		0C4CA98B3770405C83E590E8 /* ofxRemoteUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxRemoteUI.h; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		255B3D141C4E3ACF001194CE /* Osc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Osc.cpp; path = ../../../../../Cinder/blocks/OSC/src/Osc.cpp; sourceTree = "<group>"; };
-		255B3D151C4E3ACF001194CE /* Osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Osc.h; path = ../../../../../Cinder/blocks/OSC/src/Osc.h; sourceTree = "<group>"; };
+		255B3D141C4E3ACF001194CE /* Osc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Osc.cpp; path = ../../../../OSC/src/Osc.cpp; sourceTree = "<group>"; };
+		255B3D151C4E3ACF001194CE /* Osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Osc.h; path = ../../../../OSC/src/Osc.h; sourceTree = "<group>"; };
 		255B3D171C4E3B0C001194CE /* ofxCinderOSC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxCinderOSC.cpp; path = ../../../src/ofxRemoteUI/src/ofxCinderOSC.cpp; sourceTree = "<group>"; };
 		255B3D181C4E3B0C001194CE /* ofxCinderOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxCinderOSC.h; path = ../../../src/ofxRemoteUI/src/ofxCinderOSC.h; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		31F93B81B29844D197124959 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = tinyxmlerror.cpp; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/noOFLibs/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = "<group>"; };
+		31F93B81B29844D197124959 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = noOFLibs/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = "<group>"; };
 		32BAF70479D34E71BF9A7675 /* RemoteUIBasicApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = RemoteUIBasicApp.cpp; path = ../src/RemoteUIBasicApp.cpp; sourceTree = "<group>"; };
 		3FCCB3895ECB42089A929A71 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
-		4565AEAC79524F3E988576EA /* ofStolenUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofStolenUtils.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/noOFLibs/ofStolenUtils.h; sourceTree = "<group>"; };
-		4574FEC58B0D462BBB1F15C5 /* ofxRemoteUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = ofxRemoteUI.cpp; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/ofxRemoteUI.cpp; sourceTree = "<group>"; };
-		4579D965F88B46638F8D2AF6 /* tinyxml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = tinyxml.cpp; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/noOFLibs/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = "<group>"; };
+		4565AEAC79524F3E988576EA /* ofStolenUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofStolenUtils.h; path = noOFLibs/ofStolenUtils.h; sourceTree = "<group>"; };
+		4574FEC58B0D462BBB1F15C5 /* ofxRemoteUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxRemoteUI.cpp; sourceTree = "<group>"; };
+		4579D965F88B46638F8D2AF6 /* tinyxml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = noOFLibs/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5A910A758C6C4E6FA735CE7E /* RemoteUIBasic_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = RemoteUIBasic_Prefix.pch; sourceTree = "<group>"; };
 		66C98BE9809A48A5AE27C286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6868A517655C419DBB0F67B3 /* ofxRemoteUIServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = ofxRemoteUIServer.cpp; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/ofxRemoteUIServer.cpp; sourceTree = "<group>"; };
-		793EE51B70B64394BD563A09 /* uriencode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uriencode.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/uriencode.h; sourceTree = "<group>"; };
-		8120232146FB4902BC5D4207 /* uriencode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = uriencode.cpp; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/uriencode.cpp; sourceTree = "<group>"; };
-		8A20870FE6454AD3BAF08013 /* ofStolenUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = ofStolenUtils.cpp; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/noOFLibs/ofStolenUtils.cpp; sourceTree = "<group>"; };
-		8BA70DBAD02142B4BA4C14BD /* tinyxmlparser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = tinyxmlparser.cpp; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/noOFLibs/ofxXmlSettings/libs/tinyxmlparser.cpp; sourceTree = "<group>"; };
+		6868A517655C419DBB0F67B3 /* ofxRemoteUIServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxRemoteUIServer.cpp; sourceTree = "<group>"; };
+		793EE51B70B64394BD563A09 /* uriencode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uriencode.h; sourceTree = "<group>"; };
+		8120232146FB4902BC5D4207 /* uriencode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uriencode.cpp; sourceTree = "<group>"; };
+		8A20870FE6454AD3BAF08013 /* ofStolenUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ofStolenUtils.cpp; path = noOFLibs/ofStolenUtils.cpp; sourceTree = "<group>"; };
+		8BA70DBAD02142B4BA4C14BD /* tinyxmlparser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = noOFLibs/ofxXmlSettings/libs/tinyxmlparser.cpp; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* RemoteUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41D2FFC9F9B4B778FB09461 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
-		A71700CF5F5D4D8D9EADF077 /* ofxRemoteUIServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxRemoteUIServer.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/ofxRemoteUIServer.h; sourceTree = "<group>"; };
-		BCAE01A3E6AA4DE594C53124 /* ofxRemoteUIServerMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxRemoteUIServerMacros.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/src/ofxRemoteUIServerMacros.h; sourceTree = "<group>"; };
-		D1054124D20B4462A9302833 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = ofxXmlSettings.cpp; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/noOFLibs/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = "<group>"; };
-		EBFE32F99229439C83966936 /* ofxXmlSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxXmlSettings.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/noOFLibs/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = "<group>"; };
-		F5C088045C5A493295C6BF0D /* tinyxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = ../../../../../Cinder/blocks/RemoteUI/src/ofxRemoteUI/noOFLibs/ofxXmlSettings/libs/tinyxml.h; sourceTree = "<group>"; };
+		A71700CF5F5D4D8D9EADF077 /* ofxRemoteUIServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxRemoteUIServer.h; sourceTree = "<group>"; };
+		BCAE01A3E6AA4DE594C53124 /* ofxRemoteUIServerMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxRemoteUIServerMacros.h; sourceTree = "<group>"; };
+		D1054124D20B4462A9302833 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ofxXmlSettings.cpp; path = noOFLibs/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = "<group>"; };
+		EBFE32F99229439C83966936 /* ofxXmlSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxXmlSettings.h; path = noOFLibs/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = "<group>"; };
+		F5C088045C5A493295C6BF0D /* tinyxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = noOFLibs/ofxXmlSettings/libs/tinyxml.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +259,7 @@
 				1DE03803FCC14DBDBF7E0EC8 /* noOFLibs */,
 			);
 			name = ofxRemoteUI;
+			path = ../../../src/ofxRemoteUI;
 			sourceTree = "<group>";
 		};
 		C7946EDC673C4116A304C743 /* src */ = {
@@ -276,7 +277,7 @@
 				029AF541284F4D6BAA647ED8 /* RemoteParam.h */,
 				02A09DBD749C4918AF2F906B /* ofxRemoteUIServerMacros.h */,
 			);
-			name = src;
+			path = src;
 			sourceTree = "<group>";
 		};
 		CD60AD5826714FECB1EB3133 /* ofxXmlSettings */ = {
@@ -426,7 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CINDER_PATH = ../../../../../Cinder;
+				CINDER_PATH = ../../../../../;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
 				ENABLE_TESTABILITY = YES;
@@ -444,7 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CINDER_PATH = ../../../../../Cinder;
+				CINDER_PATH = ../../../../../;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
