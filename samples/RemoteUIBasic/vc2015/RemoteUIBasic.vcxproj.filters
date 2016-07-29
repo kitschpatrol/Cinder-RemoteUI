@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{128D2E3D-A824-470E-8518-423B3C03D9D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC">
+      <UniqueIdentifier>{3C488D54-6DFF-4299-BD5D-3E0E356CADC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src">
+      <UniqueIdentifier>{E74891AC-EA7B-4095-BD44-4E122CC72A2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RemoteUI">
+      <UniqueIdentifier>{8672060F-55C4-4E71-A4E2-89CDCD477F59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RemoteUI\src">
+      <UniqueIdentifier>{D9F2EBC5-0A19-43D8-A76F-70E1B44C4AA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI">
+      <UniqueIdentifier>{F94E5122-FC7B-4BA8-8934-EA4B35C03F02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\src">
+      <UniqueIdentifier>{1D744B22-D3D6-4181-84DF-8CB81257E750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs">
+      <UniqueIdentifier>{7224A793-C6E6-4D19-A380-D22A2DE9DE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings">
+      <UniqueIdentifier>{BB9CFE45-1FD1-4D2D-ABC4-C2B83ABB67FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src">
+      <UniqueIdentifier>{1B26E4F2-3354-4E26-A24A-180549789E21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs">
+      <UniqueIdentifier>{D5294F79-4778-4BF5-8B9E-B04324A4C4D5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\RemoteUIBasicApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RemoteUIBasicApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUI.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUI.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUIServer.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\uriencode.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\src\uriencode.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\RemoteParam.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\dirent_vs.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\noOFLibs\ofStolenUtils.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\noOFLibs\ofStolenUtils.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\noOFLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OSC\src\Osc.cpp">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ofxRemoteUI\src\ofxCinderOSC.cpp">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OSC\src\Osc.h">
+      <Filter>Blocks\OSC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ofxRemoteUI\src\ofxCinderOSC.h">
+      <Filter>Blocks\RemoteUI\src\ofxRemoteUI\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
