@@ -18,8 +18,8 @@
 		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
 		0205F09CFB1E485C8FB5EABE /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F93B81B29844D197124959 /* tinyxmlerror.cpp */; };
 		1E58057A3DA249249A270E2B /* ofxRemoteUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4574FEC58B0D462BBB1F15C5 /* ofxRemoteUI.cpp */; };
-		255B3D161C4E3ACF001194CE /* Osc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255B3D141C4E3ACF001194CE /* Osc.cpp */; };
 		255B3D191C4E3B0C001194CE /* ofxCinderOSC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255B3D171C4E3B0C001194CE /* ofxCinderOSC.cpp */; };
+		25B07F881DBE9D93004DE199 /* Osc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25B07F861DBE9D93004DE199 /* Osc.cpp */; };
 		2EB7F8BA97C645169B2903FE /* ofxRemoteUIServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6868A517655C419DBB0F67B3 /* ofxRemoteUIServer.cpp */; };
 		33E4ED7952CF487CA73A178C /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BA70DBAD02142B4BA4C14BD /* tinyxmlparser.cpp */; };
 		4C0962E7DB3F463298B7979E /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1054124D20B4462A9302833 /* ofxXmlSettings.cpp */; };
@@ -46,10 +46,10 @@
 		02A09DBD749C4918AF2F906B /* ofxRemoteUIServerMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxRemoteUIServerMacros.h; sourceTree = "<group>"; };
 		0C4CA98B3770405C83E590E8 /* ofxRemoteUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxRemoteUI.h; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		255B3D141C4E3ACF001194CE /* Osc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Osc.cpp; path = ../../../../OSC/src/Osc.cpp; sourceTree = "<group>"; };
-		255B3D151C4E3ACF001194CE /* Osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Osc.h; path = ../../../../OSC/src/Osc.h; sourceTree = "<group>"; };
 		255B3D171C4E3B0C001194CE /* ofxCinderOSC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxCinderOSC.cpp; path = ../../../src/ofxRemoteUI/src/ofxCinderOSC.cpp; sourceTree = "<group>"; };
 		255B3D181C4E3B0C001194CE /* ofxCinderOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxCinderOSC.h; path = ../../../src/ofxRemoteUI/src/ofxCinderOSC.h; sourceTree = "<group>"; };
+		25B07F861DBE9D93004DE199 /* Osc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Osc.cpp; sourceTree = "<group>"; };
+		25B07F871DBE9D93004DE199 /* Osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Osc.h; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		31F93B81B29844D197124959 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = noOFLibs/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = "<group>"; };
@@ -159,6 +159,32 @@
 			name = noOFLibs;
 			sourceTree = "<group>";
 		};
+		25B07F831DBE9D93004DE199 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				25B07F841DBE9D93004DE199 /* cinder */,
+			);
+			name = src;
+			path = ../../../../OSC/src;
+			sourceTree = "<group>";
+		};
+		25B07F841DBE9D93004DE199 /* cinder */ = {
+			isa = PBXGroup;
+			children = (
+				25B07F851DBE9D93004DE199 /* osc */,
+			);
+			path = cinder;
+			sourceTree = "<group>";
+		};
+		25B07F851DBE9D93004DE199 /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				25B07F861DBE9D93004DE199 /* Osc.cpp */,
+				25B07F871DBE9D93004DE199 /* Osc.h */,
+			);
+			path = osc;
+			sourceTree = "<group>";
+		};
 		29B97314FDCFA39411CA2CEA /* RemoteUIBasic */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,19 +261,10 @@
 			name = RemoteUI;
 			sourceTree = "<group>";
 		};
-		9188E1C633EE42A59954EE7D /* src */ = {
-			isa = PBXGroup;
-			children = (
-				255B3D141C4E3ACF001194CE /* Osc.cpp */,
-				255B3D151C4E3ACF001194CE /* Osc.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 		BE3451678F60412FB1D12B84 /* OSC */ = {
 			isa = PBXGroup;
 			children = (
-				9188E1C633EE42A59954EE7D /* src */,
+				25B07F831DBE9D93004DE199 /* src */,
 			);
 			name = OSC;
 			sourceTree = "<group>";
@@ -352,13 +369,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B07F881DBE9D93004DE199 /* Osc.cpp in Sources */,
 				6F899F933E674BDFAF68534C /* RemoteUIBasicApp.cpp in Sources */,
 				1E58057A3DA249249A270E2B /* ofxRemoteUI.cpp in Sources */,
 				2EB7F8BA97C645169B2903FE /* ofxRemoteUIServer.cpp in Sources */,
 				255B3D191C4E3B0C001194CE /* ofxCinderOSC.cpp in Sources */,
 				A56A87409E714B6C858496BF /* uriencode.cpp in Sources */,
 				4C0962E7DB3F463298B7979E /* ofxXmlSettings.cpp in Sources */,
-				255B3D161C4E3ACF001194CE /* Osc.cpp in Sources */,
 				6EDCD080932D49648EB6D345 /* tinyxml.cpp in Sources */,
 				0205F09CFB1E485C8FB5EABE /* tinyxmlerror.cpp in Sources */,
 				33E4ED7952CF487CA73A178C /* tinyxmlparser.cpp in Sources */,
