@@ -69,14 +69,14 @@ void RemoteUIBasicApp::setup() {
 
 	// RUI_GET_INSTANCE()->setVerbose(true);
 
-	// chose a new random color for all the upcoming variables
+	// choose a new random color for all the upcoming variables
 	RUI_NEW_GROUP("STUFF"); // make a new group (optional)
 	RUI_SHARE_PARAM(mShapeScale, 0.0, 1000.0);
 	RUI_SHARE_PARAM(mIsRotationEnabled);
 	RUI_SHARE_PARAM(mRotationSpeed, -0.25, 0.25);
 	RUI_SHARE_COLOR_PARAM(mBackgroundColor);
 
-	// privide the enum param, loweset enum, highest enum, and the Enum string list
+	// provide the enum param, lowest enum, highest enum, and the Enum string list
 	// we suffer the casts because we're using a strongly typed enum
 	RUI_SHARE_ENUM_PARAM(mCurrentShape, static_cast<int>(ShapeOptions::SQUARE), static_cast<int>(ShapeOptions::TRIANGLE), shapeNames);
 

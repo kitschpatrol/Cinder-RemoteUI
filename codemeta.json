@@ -1,0 +1,60 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "name": "Cinder-RemoteUI",
+  "identifier": "com.kitschpatrol.remoteui",
+  "version": "1.0.0",
+  "description": "CinderBlock for ofxRemoteUI. Tweak variables inside your Cinder app over the network in real time.",
+  "author": [
+    {
+      "@type": "Person",
+      "email": "eric@ericmika.com",
+      "name": "Eric Mika",
+      "url": "https://ericmika.com"
+    },
+    {
+      "@type": "Person",
+      "name": "Oriol Ferrer Mesià",
+      "url": "https://uri.cat"
+    }
+  ],
+  "keywords": [
+    "cinder",
+    "cinderblock",
+    "ofxremoteui",
+    "osc",
+    "gui",
+    "remote-control"
+  ],
+  "programmingLanguage": "C++",
+  "operatingSystem": [
+    "macOS",
+    "Windows"
+  ],
+  "url": "https://github.com/kitschpatrol/Cinder-RemoteUI",
+  "codeRepository": "https://github.com/kitschpatrol/Cinder-RemoteUI.git",
+  "issueTracker": "https://github.com/kitschpatrol/Cinder-RemoteUI/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "dateCreated": "2016-01-07",
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Cinder",
+      "codeRepository": "https://github.com/cinder/Cinder.git",
+      "version": "0.9.1dev"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "ofxRemoteUI",
+      "url": "https://github.com/armadillu/ofxRemoteUI",
+      "codeRepository": "https://github.com/kitschpatrol/ofxRemoteUI.git"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "OSC",
+      "identifier": "org.libcinder.OSC",
+      "url": "https://github.com/cinder/Cinder/tree/master/blocks/OSC",
+      "codeRepository": "https://github.com/cinder/Cinder.git"
+    }
+  ]
+}
